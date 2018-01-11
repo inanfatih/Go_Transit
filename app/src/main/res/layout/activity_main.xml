@@ -22,7 +22,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="60dp"
         android:orientation="horizontal"
         android:weightSum="2"
         app:layout_constraintBottom_toBottomOf="parent">
@@ -40,7 +40,7 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="75dp"
+                android:layout_height="60dp"
                 android:background="@color/colorPrimary"
                 android:gravity="center"
                 android:text="Rider"
@@ -64,7 +64,7 @@
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
-                android:layout_height="75dp"
+                android:layout_height="60dp"
                 android:background="@color/colorPrimary"
                 android:gravity="center"
                 android:text="Driver"
@@ -72,8 +72,7 @@
                 android:textColor="#FFF"
                 android:textSize="25dp"
                 android:textStyle="bold"
-
-
+                android:onClick="driverClicked"
                 />
 
         </LinearLayout>
@@ -83,7 +82,7 @@
     <TextView
         android:id="@+id/textew"
         android:layout_width="5dp"
-        android:layout_height="75dp"
+        android:layout_height="60dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:background="#000"
