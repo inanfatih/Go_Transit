@@ -32,7 +32,9 @@
             android:text="Create"
             android:textColor="#FFF"
             android:textSize="25dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="createClicked"
+            />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
